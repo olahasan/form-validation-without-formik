@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import React, { useState } from 'react';
+import FormPage from './Components/Form/FormPage';
+import Sent from './Components/Sent/Sent';
 
 function App() {
+ 
+
+  const[ASs, setASs] = useState(false);
+
+  const changeASsState = () => {
+    setASs(true)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FormPage /> */}
+      
+
+      { ASs ? <Sent /> : <FormPage changeASsState={changeASsState}/>}
+      {/* { ASs ? "THANK YOU" : <FormPage changeASsState={changeASsState}/>} */}
+      {/* { ASs && "youyouyou" } */}
+
     </div>
   );
 }
