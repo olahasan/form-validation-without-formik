@@ -99,5 +99,5 @@ GitHub - @olahasan
 
 ### Acknowledgments
 
-I would like to thank the **[iti](iti)** for providing this challenge and to the community for their support.
+I would like to thank the **[iti](https://iti.gov.eg/home)** for providing this challenge and to the community for their support.
 
