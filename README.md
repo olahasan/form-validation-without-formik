@@ -46,7 +46,7 @@ To get started with this project, follow these steps:
 you can clone the project or download it as Zip file.
 1. Clone the repository:
    ```bash
-   git clone https://github.com/olahasan/prayers-timings-react-hooks-tarmez
+   git clone https://github.com/olahasan/form-validation-without-formik-iti
 
 2. Navigate to the project directory:
    cd <project-directory>
