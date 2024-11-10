@@ -85,8 +85,9 @@ Otherwise, all links will open in the same tab.
 Through this project:
 1. I learned in this simple project how to create react app and treat with function component,
 2. how to deal with **Hooks**
-6. how to deal with **react-bootstrap**
-7. how to deploy it on **netlify**
+3. how to deal with **react-bootstrap**
+4. how to deploy it on **netlify**
+5. how to handle errors
 
 ## Continued Development
 In the future, I plan to:
